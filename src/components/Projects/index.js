@@ -11,7 +11,7 @@ const Projects = ({openModal,setOpenModal}) => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
-        <Desc>
+        <Desc  style={{color:"black"}}>
           I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup >
@@ -28,16 +28,16 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Game APP'S</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Game APP'S</ToggleButton>
           }
-          <Divider />
+          {/* <Divider />
           {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
+          } */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
@@ -47,7 +47,7 @@ const Projects = ({openModal,setOpenModal}) => {
           {projects
             .filter((item) => item.category == toggle)
             .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} style={{color:"black"}}/>
             ))}
         </CardContainer>
       </Wrapper>

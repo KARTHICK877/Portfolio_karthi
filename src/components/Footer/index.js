@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>K.R KARTHICK</Logo>
+        <Logo  style={{color:"black"}}> K.R KARTHICK</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -97,14 +97,14 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon  style={{color:"black"}}href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
+          {/* <SocialMediaIcon  style={{color:"black"}}href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon> */}
+          <SocialMediaIcon  style={{color:"black"}}href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon  style={{color:"black"}}href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>
+        {/* <Copyright>
           &copy; 2023 KARTHICK. All rights reserved.
-        </Copyright>
+        </Copyright> */}
 
       </FooterWrapper>
     </FooterContainer>
