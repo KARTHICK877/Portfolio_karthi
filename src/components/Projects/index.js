@@ -10,7 +10,7 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title  style={{color:"black"}}>Projects</Title>
         <Desc  style={{color:"black"}}>
           I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc>
