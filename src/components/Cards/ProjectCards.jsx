@@ -132,7 +132,7 @@ const ProjectCards = ({project,setOpenModal}) => {
                 ))}
             </Tags>
             <Details>
-                <Title>{project.title}</Title>
+                <Title   style={{color:"black"}}>{project.title}</Title>
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
