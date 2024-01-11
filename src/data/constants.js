@@ -343,6 +343,34 @@ export const projects = [
       }, ],
   },
   {
+    id: 9,
+    title: "Blog App",
+    // title1:"CHAT APP",
+    description:
+     "Our blog app provides a platform for users to share and explore a wide range of articles and content. Key features include user registration, blog creation, and the ability to view and interact with other users' blogs. Whether you're passionate about writing or eager to discover new perspectives, our app offers a seamless and engaging experience",
+    image:
+      "./blog.png",
+    tags: [
+      "Redux",
+      "material ui",
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      
+    ],
+    category: "web app",
+    github: "https://github.com/KARTHICK877/blog-app.git",
+    webapp: "https://blog-app-kr.netlify.app/",
+    member: [
+      {
+        name: "Karthick",
+        img: "./HeroImage.jpg",
+        linkedin: "www.linkedin.com/in/karthick-k-r-04547028a",
+        github: "https://github.com/KARTHICK877",
+      }, ],
+  },
+  {
     id: 0,
     title: "React Markdown-Preview",
     // date: "Apr 2023 - May 2023",
