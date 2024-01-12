@@ -438,33 +438,33 @@ export const projects = [
         github: "https://github.com/KARTHICK877",
       }, ],
   },
-  {
-    id: 2,
-    title: "E-commerce website",
-    // date: "Jan 2023 - Mar 2023",
-    description:
-      " E-commerce website Platform for online shopping, offering users a simple interface to browse and buy products, while administrators can easily manage inventory and monitor sales through an intuitive dashboard. .",
-    image:
-      "https://influencermarketinghub.com/wp-content/uploads/2021/03/thegem.jpg",
-    tags: ["React Js",
-    "MongoDb",
-    "Node Js",
-    "Express Js",
-    "Redux",
-    "NodeMailer",
-    "formik",
-  "bootstrap"],
-    category: "web app",
-    github: "https://github.com/KARTHICK877/main-ecommerce/tree/84f6fc5fe3d99667666d2de7ec9bee8898e500fe/clents",
-    backend:"https://github.com/KARTHICK877/main-ecommerce/tree/84f6fc5fe3d99667666d2de7ec9bee8898e500fe/server",
-    webapp: "https://ecomerce-mains.netlify.app/",
-    member: [
-      {
-        name: "Karthick",
-        img: "./HeroImage.jpg",
-        linkedin: "www.linkedin.com/in/karthick-k-r-04547028a",
-        github: "https://github.com/KARTHICK877",
-      }, ],
+  // {
+  //   id: 2,
+  //   title: "E-commerce website",
+  //   // date: "Jan 2023 - Mar 2023",
+  //   description:
+  //     " E-commerce website Platform for online shopping, offering users a simple interface to browse and buy products, while administrators can easily manage inventory and monitor sales through an intuitive dashboard. .",
+  //   image:
+  //     "https://influencermarketinghub.com/wp-content/uploads/2021/03/thegem.jpg",
+  //   tags: ["React Js",
+  //   "MongoDb",
+  //   "Node Js",
+  //   "Express Js",
+  //   "Redux",
+  //   "NodeMailer",
+  //   "formik",
+  // "bootstrap"],
+  //   category: "web app",
+  //   github: "https://github.com/KARTHICK877/main-ecommerce/tree/84f6fc5fe3d99667666d2de7ec9bee8898e500fe/clents",
+  //   backend:"https://github.com/KARTHICK877/main-ecommerce/tree/84f6fc5fe3d99667666d2de7ec9bee8898e500fe/server",
+  //   webapp: "https://ecomerce-mains.netlify.app/",
+  //   member: [
+  //     {
+  //       name: "Karthick",
+  //       img: "./HeroImage.jpg",
+  //       linkedin: "www.linkedin.com/in/karthick-k-r-04547028a",
+  //       github: "https://github.com/KARTHICK877",
+  //     }, ],
     // member: [
     //   {
     //     name: "Rishav Chanda",
@@ -479,7 +479,7 @@ export const projects = [
     //     github: "https://github.com/upasana0710",
     //   },
     // ],
-  },
+  // },
   {
     id: 3,
     title: "TODO app",
