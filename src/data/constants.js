@@ -332,7 +332,8 @@ export const projects = [
       "Redux",
     ],
     category: "web app",
-    github: "https://github.com/KARTHICK877/chat-app.git",
+    github: "https://github.com/KARTHICK877/chat-app/tree/cff9ed8731eb490835a1c7ad4d6981c4d65a32cf/client",
+    backend:"https://github.com/KARTHICK877/chat-app/tree/cff9ed8731eb490835a1c7ad4d6981c4d65a32cf/server",
     webapp: "https://chat-app-mern123.netlify.app/",
     member: [
       {
@@ -360,7 +361,8 @@ export const projects = [
       
     ],
     category: "web app",
-    github: "https://github.com/KARTHICK877/blog-app.git",
+    github: "https://github.com/KARTHICK877/blog-app/tree/9dc4abcc96b41be8b56ca835dffe1a3e73a428f0/client%20copy",
+    backend:"https://github.com/KARTHICK877/blog-app/tree/9dc4abcc96b41be8b56ca835dffe1a3e73a428f0/server",
     webapp: "https://blog-app-kr.netlify.app/",
     member: [
       {
@@ -381,6 +383,8 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "material ui" ,"bootstrap"],
     category: "web app",
     github: "https://github.com/KARTHICK877/markdown_frontend.git",
+   
+    backend:"https://github.com/KARTHICK877/markdown_backend.git",
     webapp: "https://markdown-previewer-mern.netlify.app/",
     member: [
       {
@@ -423,7 +427,8 @@ export const projects = [
       "formik"
     ],
     category: "web app",
-    github: "https://github.com/KARTHICK877/n99-todo-quest-..git",
+    github: "https://github.com/KARTHICK877/n99-todo-quest-./tree/ad218a62aca8789b934eb888ed2d3c4111aa2ab7/client",
+    backend:"https://github.com/KARTHICK877/n99-todo-quest-./tree/ad218a62aca8789b934eb888ed2d3c4111aa2ab7/server",
     webapp: "https://discussionbord-curd.netlify.app/signup",
     member: [
       {
@@ -450,7 +455,8 @@ export const projects = [
     "formik",
   "bootstrap"],
     category: "web app",
-    github: "https://github.com/KARTHICK877/main-ecommerce.git",
+    github: "https://github.com/KARTHICK877/main-ecommerce/tree/84f6fc5fe3d99667666d2de7ec9bee8898e500fe/clents",
+    backend:"https://github.com/KARTHICK877/main-ecommerce/tree/84f6fc5fe3d99667666d2de7ec9bee8898e500fe/server",
     webapp: "https://ecomerce-mains.netlify.app/",
     member: [
       {
@@ -484,7 +490,8 @@ export const projects = [
       "./todo.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "material ui" ,"bootstrap"],
     category: "web app",
-    github: "https://github.com/KARTHICK877/todo_2023.git",
+    github: "https://github.com/KARTHICK877/todo_2023/tree/9c439311c241cbbfe433716e8e40ada73c99e32a/client",
+    backend:"https://github.com/KARTHICK877/todo_2023/tree/9c439311c241cbbfe433716e8e40ada73c99e32a/server",
     webapp: "https://todo-app-2024001.netlify.app/",
     member: [
       {
@@ -505,6 +512,7 @@ export const projects = [
     tags: ["React ", "JavaScript","styled-components","Figma"],
     category: "android app",
     github: "https://github.com/KARTHICK877/1react/tree/7e109af32f2fca754ba06d2de77605549b319b24/diceGame/dic",
+   
     webapp: "https://6500832bb3441a009b161ace--gentle-crisp-465954.netlify.app/",
     member: [
       {

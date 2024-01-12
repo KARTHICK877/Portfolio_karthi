@@ -184,6 +184,7 @@ const Button = styled.a`
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
+    const projectIdToRemoveBackendButton = 10
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
             <Container>
@@ -226,7 +227,12 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
+                        <Button dull href={project?.github} target='new' style={{color:"black"}}>Frontend Source Code</Button>
+                        {project?.id !== projectIdToRemoveBackendButton && project?.backend && (
+                            <Button dull href={project?.backend} target='new' style={{color:"black"}}>
+                                Backend Source Code
+                            </Button>
+                        )}
                         <Button href={project?.webapp} target='new' style={{color:'white'}}>View Live App</Button>
                     </ButtonGroup>
                 </Wrapper>
